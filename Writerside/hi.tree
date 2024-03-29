@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="hi"
+                 name="Help Instance"
+                 start-page="Deploy.md">
+
+    <toc-element topic="Regras-de-negócio.md">
+        <toc-element topic="Carta-espelho.md"/>
+    </toc-element>
+    <toc-element topic="Desenvolvimento.md">
+        <toc-element topic="Arquitetura.md">
+            <toc-element topic="Frontend.md"/>
+            <toc-element topic="Backend.md"/>
+        </toc-element>
+        <toc-element topic="Convenções-Regras.md"/>
+        <toc-element topic="Deploy.md"/>
+    </toc-element>
+</instance-profile>
